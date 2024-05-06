@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #8E24AA;
+  }
+  
+  body {
+    background-color: #f7f7f7; /* light gray background */
+  }
+  
+  /* Add some purple flair to our app */
+  a, button, input[type="submit"] {
+    color: var(--primary-color);
+  }
+  
+  a:hover, button:hover, input[type="submit"]:hover {
+    color: #6c2fb7; /* darker purple on hover */
+  }
